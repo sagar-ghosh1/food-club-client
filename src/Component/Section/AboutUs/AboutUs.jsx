@@ -3,29 +3,29 @@ import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
-    return (
-        <div className="hero min-h-screen bg-sky-50">
-            <div>
-                <h2 className='text-[#555555] text-2xl text-center font-semibold'>ABOUT US</h2>
-                <hr className='w-24 mt-2 mb-8 rounded mx-auto border border-amber-500' />
+ return (
+  <div className="hero min-h-screen bg-sky-50">
+   <div>
+    <h2 className='text-[#555555] text-4xl text-center font-semibold'>ABOUT US</h2>
+    <hr className='w-44 mt-2 mb-8 rounded mx-auto border border-green-500' />
 
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className='border-8 border-amber-500'>
-                        <LazyLoad>
-                            <img src="https://rb.gy/ojjih" alt='Chef' className="lg:max-w-lg shadow-2xl" />
-                        </LazyLoad>
-                    </div>
+    <div className="hero-content flex-col lg:flex-row-reverse">
+     <div className='border-8 border-green-500'>
+      <LazyLoad>
+       <img src="https://rb.gy/ojjih" alt='Chef' className="lg:max-w-lg shadow-2xl" />
+      </LazyLoad>
+     </div>
 
-                    <div>
-                        <h1 className="text-4xl font-semibold">About <span className='text-6xl font-bold text-amber-500'>Us</span></h1>
-                        <p className="py-6 lg:pr-64 flex-grow-1 text-slate-500">At Flaming wings, we believe that cooking is more than just a practical skill-it&lsquo;s an art form that allows you to express your creativity and passion. That&lsquo;s why we&lsquo;re committed to providing an engaging and enjoyable learning experience that will inspire you to explore new flavors and techniques..</p>
+     <div>
+      <h1 className="text-4xl font-semibold text-green-500">About <span className='text-6xl font-bold text-green-500'>Us</span></h1>
+      <p className="py-6 lg:pr-64 flex-grow-1 text-slate-500">Cooking offers a wide range of possibilities for creative expression. Chefs and home cooks alike can experiment with various ingredients, flavors, and techniques to create unique and visually appealing dishes. Just like a painter uses different colors and brushstrokes to create a masterpiece, a cook can combine different ingredients, textures, and cooking methods to craft culinary creations. In culinary arts, the presentation of a dish is of utmost importance. Chefs pay close attention to how they arrange and plate their creations, considering factors such as color, texture, balance, and symmetry...</p>
 
-                        <Link to="/about" className="btn btn-warning bg-amber-500">Explore</Link>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+      <Link to="/about" className="btn btn-success bg-green-500">Explore</Link>
+     </div>
+    </div>
+   </div>
+  </div>
+ );
 };
 
 export default AboutUs;
