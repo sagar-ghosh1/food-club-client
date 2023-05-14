@@ -11,8 +11,8 @@ const PrivateRoute = ({ children }) => {
         return (
             <div className='min-h-screen bg-slate-200'>
                 <Bars
-                    height="80"
-                    width="80"
+                    height="90"
+                    width="1600"
                     color="#4fa94d"
                     ariaLabel="bars-loading"
                     wrapperStyle={{}}

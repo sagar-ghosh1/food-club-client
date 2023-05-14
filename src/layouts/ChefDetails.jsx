@@ -41,7 +41,7 @@ const ChefDetails = () => {
                 loading ? <Bars
                     visible={true}
                     height="90"
-                    width="1400"
+                    width="1600"
                     ariaLabel="Bars-loading"
                     wrapperStyle={{}}
                     wrapperClass="Bars-wrapper"
