@@ -6,4 +6,4 @@
 * If the user is logged in, he can view the safe and recipe details.
 * If the user is logged in, his name can be seen in the navbar with his picture and tooltip.
 
-_Live Link:_ 
+_Live Link:_ https://food-club-d8106.web.app/
