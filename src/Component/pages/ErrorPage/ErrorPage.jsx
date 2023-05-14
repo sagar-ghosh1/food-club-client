@@ -16,7 +16,7 @@ const ErrorPage = () => {
                     <div className='mr-10'>
                         <h1 className="text-5xl font-bold">Oops! <br /> Page not found</h1>
                         <p className="py-6">The page you are looking for could not be found</p>
-                        <Link className="btn btn-outline btn-primary"><FaArrowLeft className='mr-2' /> Back To Home</Link>
+                        <Link className="btn btn-outline btn-secondary"><FaArrowLeft className='mr-2' /> Back To Home</Link>
                     </div>
                 </div>
             </div>

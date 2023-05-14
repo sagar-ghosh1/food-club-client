@@ -53,7 +53,7 @@ const Register = () => {
             <div className="hero min-h-screen bg-indigo-50">
                 <div className="hero-content flex-col">
                     <div className="text-center">
-                        <h1 className="text-5xl font-bold">Please register!</h1>
+                        <h1 className="text-5xl font-bold">Please Register!</h1>
                     </div>
                     <div className="card flex-shrink-0 lg:w-screen max-w-sm mt-5 shadow-2xl bg-base-100">
                         <form onSubmit={handleRegister} className="card-body">
@@ -90,7 +90,7 @@ const Register = () => {
                             </div>
 
                             <div className="form-control mt-2">
-                                <button className="btn btn-primary">Register Now</button>
+                                <button className="btn btn-success">Register Now</button>
                             </div>
                         </form>
                     </div>

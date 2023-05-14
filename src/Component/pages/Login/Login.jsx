@@ -56,7 +56,7 @@ const Login = () => {
                             <p className='text-red-700 font-semibold text-center'>{error}</p>
 
                             <div className="form-control mt-5">
-                                <button className="btn btn-primary">Login</button>
+                                <button className="btn btn-success">Login</button>
                             </div>
 
                             <p className="ml-12"><small>New to Auth Master?</small>
