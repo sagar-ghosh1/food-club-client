@@ -46,7 +46,7 @@ const ChefDetails = () => {
                     wrapperStyle={{}}
                     wrapperClass="blocks-wrapper"
                 /> :
-                    <div className="min-h-screen py-9 bg-sky-950 text-white">
+                    <div className="min-h-screen py-9 bg-sky-200 text-black">
                         <div>
                             <div className="hero-content flex-col lg:flex-row">
                                 <LazyLoad>

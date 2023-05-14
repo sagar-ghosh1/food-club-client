@@ -24,10 +24,10 @@ const Recipe = ({ recipe }) => {
                     </figure>
 
                     <div className="card-body  text-slate-500">
-                        <h2 className="card-title text-amber-600">{recipe.recipe_name}</h2>
-                        <p><span className='text-[16px] text-cyan-700 font-semibold mr-3'>Ingredients:</span>{recipe.ingredients}</p>
+                        <h2 className="card-title text-green-600">{recipe.recipe_name}</h2>
+                        <p><span className='text-[16px] text-orange-700 font-semibold mr-3'>Ingredients:</span>{recipe.ingredients}</p>
 
-                        <p><span className='text-[16px] text-cyan-700 font-semibold mr-3'>Method:</span>{recipe.method}</p>
+                        <p><span className='text-[16px] text-orange-700 font-semibold mr-3'>Method:</span>{recipe.method}</p>
 
                         <div className="card-actions justify-between items-center mt-2">
 
@@ -37,7 +37,7 @@ const Recipe = ({ recipe }) => {
                             </span>
 
                             <span>
-                                <button onClick={handleClick} className="btn btn-sm btn-outline btn-warning"><FaRegHeart className='mr-2' /> Favorite</button>
+                                <button onClick={handleClick} className="btn btn-sm btn-outline"><FaRegHeart className='mr-2' /> Favorite</button>
                                 <ToastContainer />
                             </span>
                         </div>
