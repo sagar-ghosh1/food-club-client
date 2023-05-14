@@ -5,7 +5,7 @@ import { Link, useParams } from 'react-router-dom';
 import like from '../assets/like.png'
 import { FaArrowLeft } from 'react-icons/fa';
 import Recipe from './Recipe';
-import { Blocks } from 'react-loader-spinner';
+import { Bars } from 'react-loader-spinner';
 import LazyLoad from 'react-lazy-load';
 
 const ChefDetails = () => {
@@ -38,13 +38,13 @@ const ChefDetails = () => {
     return (
         <div>
             {
-                loading ? <Blocks
+                loading ? <Bars
                     visible={true}
                     height="90"
                     width="1400"
-                    ariaLabel="blocks-loading"
+                    ariaLabel="Bars-loading"
                     wrapperStyle={{}}
-                    wrapperClass="blocks-wrapper"
+                    wrapperClass="Bars-wrapper"
                 /> :
                     <div className="min-h-screen py-9 bg-sky-200 text-black">
                         <div>

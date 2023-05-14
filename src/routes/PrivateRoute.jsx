@@ -1,8 +1,7 @@
 import React, { useContext } from 'react';
 import { GetContext } from '../providers/AuthProvider';
 import { Navigate, useLocation } from 'react-router-dom';
-import { Blocks } from 'react-loader-spinner';
-// import { Blocks } from 'react-loader-spinner'
+import { Bars } from 'react-loader-spinner';
 
 const PrivateRoute = ({ children }) => {
     const { users, loading } = useContext(GetContext);
@@ -11,13 +10,14 @@ const PrivateRoute = ({ children }) => {
     if (loading) {
         return (
             <div className='min-h-screen bg-slate-200'>
-                <Blocks
-                    visible={true}
-                    height="90"
-                    width="1400"
-                    ariaLabel="blocks-loading"
+                <Bars
+                    height="80"
+                    width="80"
+                    color="#4fa94d"
+                    ariaLabel="bars-loading"
                     wrapperStyle={{}}
-                    wrapperClass="blocks-wrapper"
+                    wrapperClass=""
+                    visible={true}
                 />
             </div>);
     }
