@@ -16,7 +16,7 @@ const ChefDetails = () => {
 
     useEffect(() => {
         setLoading(true);
-        fetch(`https://food-club-server.vercel.app/chef-details/${id}`)
+        fetch(`https://food-club-server-sagar-ghosh1.vercel.app/chef-details/${id}`)
             .then((res) => res.json())
             .then((data) => {
                 setChefInfo(data)
@@ -26,7 +26,7 @@ const ChefDetails = () => {
 
     useEffect(() => {
         setLoading(true);
-        fetch('https://food-club-server.vercel.app/recipe')
+        fetch('https://food-club-server-sagar-ghosh1.vercel.app/recipe')
             .then((res) => res.json())
             .then((data) => {
                 setRecipes(data)

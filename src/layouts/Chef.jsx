@@ -8,7 +8,7 @@ const Chef = () => {
 
     useEffect(() => {
         setLoading(true);
-        fetch('https://food-club-server.vercel.app/chef-details')
+        fetch('https://food-club-server-sagar-ghosh1.vercel.app/chef-details')
             .then((res) => res.json())
             .then((data) => {
                 setChef(data)
