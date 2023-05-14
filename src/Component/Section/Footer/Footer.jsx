@@ -3,10 +3,10 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-slate-700 text-white text-base-content">
+            <footer className="footer p-10 bg-slate-600 text-white text-base-content">
                 <div>
                     <h3 className='text-3xl font-bold'>Food Club</h3>
-                    <p>ACME Industries Ltd.<br />Providing reliable tech since 2000</p>
+                    <p>RPS Industries Ltd.<br />Providing reliable tech since 2005</p>
                 </div>
                 <div>
                     <span className="footer-title">Services</span>
