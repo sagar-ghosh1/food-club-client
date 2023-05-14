@@ -21,7 +21,7 @@ const Card = ({ chef }) => {
                     </h2>
                     <p className='font-semibold'><span className='mr-1'>{chef.years_of_experience}</span>Years of experience</p>
                     <p className='font-semibold'>Famous Recipes:-</p>
-                    <p className='font-medium text-amber-500'>{chef.recipe_name}</p>
+                    <p className='font-medium text-green-500'>{chef.recipe_name}</p>
 
                     <div className="card-actions justify-between items-center mt-3">
                         <span className='w-6 flex items-center'>
