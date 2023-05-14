@@ -68,7 +68,7 @@ const NavigationBar = () => {
                     {users ?
                         <button onClick={handleLogOut} className='btn'>Log Out</button> :
                         <Link to="/login">
-                            <button className='btn'>Log In</button>
+                            <button className='btn bg-green-600'>Log In</button>
                         </Link>
                     }
                 </div>
