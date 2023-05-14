@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { GetContext } from '../../../providers/AuthProvider';
-import logo from '../../../assets/chef-logo.png'
+import logo from '../../../assets/food-club.png'
 import LazyLoad from 'react-lazy-load';
 
 const NavigationBar = () => {
